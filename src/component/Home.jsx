@@ -84,6 +84,7 @@ const Home = () => {
       setIsLoading(false);
     }
   },[loadedVideos])
+  
   return (
     <div className="relative h-dvh w-screen overflow-x-hidden">
       {isLoadinhg && (
